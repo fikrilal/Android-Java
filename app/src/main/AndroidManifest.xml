@@ -17,16 +17,19 @@
             android:name=".ScrollView"
             android:exported="false" />
         <activity
+            android:name=".ScrollViewHorizontal"
+            android:exported="false" />
+        <activity
             android:name=".LinearLayout"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SpinnerView"
             android:exported="false" />
         <activity
             android:name=".RelativeLayout"
             android:exported="false" />
         <activity
-            android:name=".ScrollViewHorizontal"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
